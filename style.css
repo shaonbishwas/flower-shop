@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+}
+
+/*==================
+ Common Style 
+====================*/
+
+span {
+  color: #e55473;
+}
+
+.common-tittle {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.common-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.common-text-w1 {
+  width: 560px;
+}
+
+.common-text-w2 {
+  width: 560px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 20px 43px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  border-style: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #272727;
+  color: #ffffff;
+}
+
+.m-b {
+  margin-bottom: 24px;
+}
+
+/*=================================== Navigation Area=================================================*/
+header {
+  width: 100%;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  gap: 600px;
+  padding: 24px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+
+nav,
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #272727;
+  padding: 15px 25px 15px 25px;
+}
+
+nav > ul > li > a:hover {
+  color: #e55473;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/*==============================================Banner Area ==================================================*/
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.banner-tittle {
+  width: 700px;
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+}
+.banner-info,
+h1,
+p {
+  margin-bottom: 32px;
+}
+
+.banner-image {
+  margin-bottom: -3px;
+}
+
+/*======================================Flower Feature Area======================================*/
+.flower-feature-container {
+  margin-top: 178px;
+}
+
+.flower-feature-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.box1 {
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 110px 78px 0px 76px;
+}
+
+.box-img {
+  margin-bottom: -3px;
+}
+
+.box2 {
+  background: rgba(5, 151, 160, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 117px 47px 51px 47px;
+}
+
+.box3 {
+  background: rgba(71, 125, 17, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 67px 75px 0px 75px;
+}
+
+.image-tittle {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+/*=========================================Services Area Style======================================*/
+.services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 1440px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 128px;
+}
+
+.service-tittle {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.service > img {
+  margin-bottom: 24px;
+}
+
+/*==============================================Discount Area =============================================*/
+.discount-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 186px;
+  width: 100%;
+  height: 620px;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 128px;
+}
+
+.discount-info,
+button {
+  text-align: center;
+}
+
+.btn2 {
+  margin-top: 32px;
+}
+
+.discount-info > h2 {
+  margin-bottom: 24px;
+}
+
+/*===========================================instagram area===========================================*/
+.instagram-container {
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.instagram-images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+/*====================================Subscription Area==========================================*/
+.sub-container {
+  text-align: center;
+  background-image: url("./images/background1.png");
+  padding: 122px 287px 121px 287px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input {
+  border-radius: 8px;
+  width: 678px;
+  background: #fff;
+  border-style: none;
+  padding: 20px 0px 20px 20px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 16px;
+  margin-top: 18px;
+}
+
+/*========================================Footer Area=========================================*/
+
+.footer-container {
+  background: #111010;
+  margin-top: 128px;
+  padding: 128px;
+}
+
+.footer-tittle {
+  color: #fff;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.footer-t1 {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.footer-t2 {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 25px;
+}

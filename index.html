@@ -1,12 +1,174 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flower shop</title>
+  </head>
+
+  <body>
+    <header>
+      <!--------------------------------------Navigation Area --------------------------------------------->
+      <nav>
+        <ul>
+          <li><button class="btn">Sign Up</button></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-----------------------------------------Banner Area -------------------------------------------------->
+      <div class="banner-container">
+        <div class="banner-info">
+          <h1 class="banner-tittle">
+            Let's make beautiful flowers a part of your life.
+          </h1>
+          <p class="common-text common-text-w1">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters.
+          </p>
+          <button class="btn">Shop Now</button>
+        </div>
+        <div class="banner-image">
+          <img src="./images/pngwing 10.png" alt="image" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ----------------------------------------Flower Featured Area ------------------------------------------>
+      <section>
+        <div class="flower-feature-container">
+          <h2 class="common-tittle m-b">Our Featured Flowers</h2>
+          <p class="common-text common-text-w2">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+          <div class="flower-feature-images">
+            <div class="blog">
+              <div class="box1">
+                <img class="box-img" src="./images/pngwing 6.png" alt="image" />
+              </div>
+              <h4 class="image-tittle">Pink Flower Tree</h4>
+            </div>
+            <div class="blog">
+              <div class="box2">
+                <img class="box-img" src="./images/pngwing 5.png" alt="image" />
+              </div>
+              <h4 class="image-tittle">Flower bokeh</h4>
+            </div>
+            <div class="blog">
+              <div class="box3">
+                <img class="box-img" src="./images/pngwing 7.png" alt="image" />
+              </div>
+              <h4 class="image-tittle">Yellow Flower Tree</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------------------------------------------- Service Area --------------------------------------------->
+      <section>
+        <div class="services-container">
+          <div class="service">
+            <img src="./images/service.png" alt="logo" />
+            <h4 class="service-tittle">Same Day Delivery. Click & Collect.</h4>
+          </div>
+          <div class="service">
+            <img src="./images/flower.png" alt="logo" />
+            <h4 class="service-tittle">Fresh Flowers. Local Growers.</h4>
+          </div>
+          <div class="service">
+            <img src="./images/support.png" alt="logo" />
+            <h4 class="service-tittle">24/7 Free Support.</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------------------- Discount Area ---------------------------------------------->
+      <section>
+        <div class="discount-container">
+          <div class="discount-info">
+            <h2 class="common-tittle">
+              Hot Deal ! Sale Up To 25% <span>Off</span>
+            </h2>
+            <p class="common-text common-text-w2">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+            <button class="btn btn2">Sign Up</button>
+          </div>
+          <div class="discount-image">
+            <img src="./images/pngwing 8.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!----------------------------------------- instagram area --------------------------------------------------->
+      <section>
+        <div class="instagram-container">
+          <h2 class="common-tittle m-b">Instagram</h2>
+          <p class="common-text common-text-w2">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+          <div class="instagram-images">
+            <div class="image-box">
+              <img src="./images/flower01.png" alt="image" />
+            </div>
+            <div class="image-box">
+              <img src="./images/flower02.png" alt="image" />
+            </div>
+            <div class="image-box">
+              <img src="./images/flower03.png" alt="image" />
+            </div>
+            <div class="image-box">
+              <img src="./images/flower4.png" alt="image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------------------------- Subscription Area ------------------------------------------------->
+      <section>
+        <div class="sub-container">
+          <h2 class="common-tittle m-b">Get The Latest Deals</h2>
+          <p class="common-text">$30 coupon for first shopping</p>
+          <input
+            type="email"
+            placeholder="Enter your email here...."
+            name=""
+            id=""
+          />
+          <button class="btn">Subscribe</button>
+        </div>
+      </section>
+    </main>
+    <!------------------------------------------footer area------------------------------------------------------->>
+    <footer>
+      <!-- Footer Area  -->
+      <div class="footer-container">
+        <h2 class="footer-tittle"><span>Flower</span>Shop</h2>
+        <p class="common-text-w2 footer-t1">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+        <p class="common-text-w2 footer-t2">
+          @2020-2023, FlowerShop.com. &copy;All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
